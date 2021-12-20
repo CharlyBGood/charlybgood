@@ -183,27 +183,7 @@ input[type="text"]:focus, [type="email"]:focus {
 
 /* 
 
-.topnav {
-    display: flex;
-    justify-content: space-around;    
-    background: #99103d;
-    position: fixed;
-    width: 100%;
-    padding: .3em .6em;
-    opacity: .9;
-}
 
-.nav-link {
-    padding: .5rem;
-    margin: .6em;
-    transition: all 0.4s linear;
-    border-radius: 4px;
-    color: var(--col-whr);
-    text-decoration: none;    
-    text-transform: uppercase;
-    font-size: .8em;
-    letter-spacing: .3em;
-}
 
 .container {
     display: flex;
