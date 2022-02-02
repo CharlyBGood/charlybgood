@@ -18,11 +18,17 @@ body {
     color: var(--col-whr);
     background-color: #000;
     margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
 }
 
 .header {
-    height: 100vh;
-    max-width: 100%;
+    /* height: 100vh;
+    max-width: 100%; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .topnav {
@@ -66,14 +72,11 @@ body {
     flex-direction: column;
     align-items: center;
     width: 60%;
-    gap: 1.5em;
+    gap: .3em;
     margin: 3em auto;
 }
 
-.img {    
-    flex: 1;
-    /* border-radius: .7em 5em; */
-    max-width: 100%;    
+.img {      
     animation: imgeye 11s infinite;
     margin: .7em;
 }
@@ -120,10 +123,14 @@ body {
 
 
 footer {    
-    margin-top: 2.3em;
+    /* margin-top: 2.3em; */
     background-color: #99103d;
     opacity: .5;
-    padding: .5em;      
+    padding: .3em;
+    margin: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .smedia {
@@ -140,9 +147,9 @@ footer {
     color: var(--col-whr);  
 }
 
-.contact {
+/* .contact {
     width: 80%;
-    margin: 5rem auto;     
+    margin: 5rem auto;
     
     padding: 1em;
 }
@@ -181,7 +188,7 @@ input[type="submit"]:hover {
 
 input[type="text"]:focus, [type="email"]:focus {
     border: 1px solid #501f50;
-}
+} */
 
 
 
