@@ -183,7 +183,8 @@ footer {
     
     .decoration_words {
         width: 100%;
-        
+        align-items: center;
+        gap: 1em;        
     }
 
     .decoration_words a {
