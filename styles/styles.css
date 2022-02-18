@@ -24,11 +24,18 @@ body {
 }
 
 .header {
-    /* height: 100vh;
-    max-width: 100%; */
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
     padding: 0;
     margin: 0;
+}
+
+.header-logo {
+    border-radius: 3em;
+    margin: 0 auto;
+    padding: .4em;
 }
 
 .topnav {
@@ -41,53 +48,74 @@ body {
     top: 0;
     opacity: .9;
 }
+
 .nav-link {
     flex: 1;
+    padding: 0 1em;
+    text-align: center;
+    color: var(--col-whr);
+    text-decoration: none;
 }
 
 .nav-link_1 {
-    flex: 3;        
+    text-align: left;
+    flex: 2;        
 }
 
-.topnav a {
-    color: var(--col-whr);
-    text-decoration: none;
-    padding: .7em;
-    text-align: center;
-}
-
-.topnav a:hover {
+a.nav-link:hover {
     background: #bb215c;
+    width: 100%;
+    height: 100%;
     color: var(--col-whr);
 }
 
 .logo_img {
-    width: 3em;
+    /* width: 3em; */
     border-radius: 3em;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .img_container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 80%;
     gap: .3em;
-    margin: 3em auto;
+    margin: 5em auto;
 }
 
-.img {      
+/* .img {      
     animation: imgeye 11s infinite;
-    margin: .7em;
+    margin: 0 auto;
+} */
+
+.img {
+    border-radius: 3em;
+    
+    margin: 0 auto;
+    -webkit-animation: spin 3s linear infinite; /* Safari */
+    animation: spin 11s linear infinite;
 }
 
 @keyframes imgeye {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+ /* Safari */
+ @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+
+
+/* @keyframes imgeye {
     0% {border-radius: 3em 13em;}
     25% {border-radius: 5em 11em;}
     50% {border-radius: 13em 3em;}
     75% {border-radius: 100%;}
     100% {border-radius: 3em 13em;}
-}
+} */
 
 .decoration_words {
     display: flex;
@@ -148,22 +176,18 @@ footer {
 
 @media screen and ( max-width: 700px ) {
     .img_container {
-        width: 100%;
+        width: 80%;
         height: auto;
         padding: 2em;
-        margin: 1.5em auto;
     }
     
     .decoration_words {
         width: 100%;
-        flex: 1;
+        
     }
 
     .decoration_words a {
         font-size: 1em;
     }
 
-    .img {
-        width: 50%;
-    }
 }
