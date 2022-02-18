@@ -17,7 +17,7 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
     color: var(--col-whr);
     background-color: #000;
-    background-image: url("../img/damma.gif");
+    background-image: url("../img/JAHJAH.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -135,8 +135,8 @@ a.nav-link:hover {
     text-decoration: none;
     animation: bigpre 11s infinite alternate;
     padding: .2em;
-    background-color: #000;
-    opacity: .6;
+    /* background-color: #000;
+    opacity: .6; */
 }
 
 @keyframes bigpre {
