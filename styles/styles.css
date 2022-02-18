@@ -17,10 +17,16 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
     color: var(--col-whr);
     background-color: #000;
+    background-image: url("../img/damma.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: screen;
     margin: 0;
     padding: 0;
     max-width: 100%;
     height: auto;
+    font-weight: bolder;
 }
 
 .header {
@@ -69,12 +75,6 @@ a.nav-link:hover {
     color: var(--col-whr);
 }
 
-.logo_img {
-    /* width: 3em; */
-    border-radius: 3em;
-    margin: 0 auto;
-}
-
 .img_container {
     display: flex;
     flex-direction: column;
@@ -91,10 +91,10 @@ a.nav-link:hover {
 
 .img {
     border-radius: 3em;
-    
     margin: 0 auto;
     -webkit-animation: spin 3s linear infinite; /* Safari */
     animation: spin 11s linear infinite;
+    opacity: 11;
 }
 
 @keyframes imgeye {
@@ -135,6 +135,8 @@ a.nav-link:hover {
     text-decoration: none;
     animation: bigpre 11s infinite alternate;
     padding: .2em;
+    background-color: #000;
+    opacity: .6;
 }
 
 @keyframes bigpre {
@@ -174,7 +176,11 @@ footer {
     color: var(--col-whr);  
 }
 
-@media screen and ( max-width: 700px ) {
+@media screen and ( max-width: 800px ) {
+    .item_2, .item_3 {
+        align-self: center;
+    }
+
     .img_container {
         width: 80%;
         height: auto;
