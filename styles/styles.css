@@ -20,7 +20,7 @@ body {
     background-image: url("../img/JAHJAH.gif");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-blend-mode: screen;
     margin: 0;
     padding: 0;
