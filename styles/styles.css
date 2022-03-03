@@ -6,6 +6,7 @@
     --fs-400: 1rem;
     --col-whr: #e2e1e1;
     --col-whp: #f7e4f2;
+    --col-rd: #99103d;
 }
 
 * {
@@ -17,11 +18,11 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
     color: var(--col-whr);
     background-color: #000;
-    background-image: url("../img/JAHJAH.gif");
+    /* background-image: url("../img/JAHJAH.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-blend-mode: screen;
+    background-blend-mode: screen; */
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -40,38 +41,30 @@ body {
 
 .header-logo {
     border-radius: 3em;
-    margin: 0 auto;
     padding: .4em;
 }
 
 .topnav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: #99103d;
+    background-color: var(--col-rd);
     position: fixed;
     width: 100%;
     top: 0;
     opacity: .9;
 }
 
-.nav-link {
-    flex: 1;
-    padding: 0 1em;
-    text-align: center;
+.nav-link_2 {
+    padding: 1.5em;
+    text-align: right;
     color: var(--col-whr);
     text-decoration: none;
 }
 
-.nav-link_1 {
-    text-align: left;
-    flex: 2;        
-}
 
-a.nav-link:hover {
+.nav-link_2:hover {
     background: #bb215c;
-    width: 100%;
-    height: 100%;
     color: var(--col-whr);
 }
 
@@ -173,7 +166,7 @@ footer {
     margin: 0 auto;
     padding: 0 1.5em;
     text-decoration: none;
-    color: var(--col-whr);  
+    color: var(--col-whp);  
 }
 
 @media screen and ( max-width: 800px ) {
