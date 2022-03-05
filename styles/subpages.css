@@ -21,6 +21,8 @@ body {
     margin: 0;
 }
 
+/* audio video gallery page */
+
 .video_gallery {
     display: flex;
     flex-direction: column;
@@ -34,7 +36,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 11em auto;    
+    /* margin: 11em auto;     */
     gap: 3em;  
 }
 
@@ -58,6 +60,8 @@ body {
 }
 
 
+/* contact form page */
+
 .form-container {
     display: flex;
     flex-direction: column;
@@ -78,4 +82,62 @@ form input, textarea {
     padding: .5em;
     width: 75%;
     border-radius: .5em;
+}
+
+/*  collages gallery page */
+
+/* .gy-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;    
+    flex: 1;
+    width: 85%;
+    margin: 11em auto;
+    gap: 2em;
+} */
+
+/* .gy-container div {
+    background-color: red;
+    width: 15%;
+    height: 5em;
+    border-radius: .3em;
+    margin: 1em;    
+} */
+
+.collage-h1 {
+    text-align: center;
+    margin: 3em auto;
+    margin-bottom: .5em;
+}
+
+.gy-container {
+    margin: 0 auto ;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em 2em;
+    justify-content: space-around;
+    width: 90%;    
+}
+
+.gy-container div {
+    margin: 0 auto;
+    width: 11em;
+    height: 11em;
+    background-color: var(--col-rd);
+    border-radius: .5em;
+}
+
+.gy-container button {
+    justify-content: center;
+    text-align: center;
+    margin: 1em auto;
+    grid-column: 2;
+    background-color: var(--col-rd);
+    padding: .6em;
+    border-radius: .5em;    
+}
+
+.gy-container button a {
+    color: var(--col-whr);
+    text-decoration: none;
 }
