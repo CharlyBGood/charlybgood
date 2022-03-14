@@ -40,7 +40,7 @@ body {
     gap: 3em;  
 }
 
-.music-container a, img {
+.music-container a, .music-container img {
     background-color: #212121;
     color: var(--col-whr);
     padding: .7em;
