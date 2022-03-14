@@ -31,16 +31,16 @@ body {
     height: 100vh;
 }
 
-.container {
+.music-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin: 11em auto;     */
+    margin: 7em auto;    
     gap: 3em;  
 }
 
-.container a, img {
+.music-container a, img {
     background-color: var(--col-rd);
     color: var(--col-whr);
     padding: .7em;
