@@ -41,7 +41,7 @@ body {
 }
 
 .music-container a, img {
-    background-color: var(--col-rd);
+    background-color: #212121;
     color: var(--col-whr);
     padding: .7em;
     border-radius: .7em;
