@@ -7,16 +7,12 @@
     <link rel="stylesheet" href="../styles/subpages.css" />
     <link rel="stylesheet" href="../styles/styles.css" />
     <title>charlybgood/contact</title>
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <script type="module" src="../main.js"></script>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <header id="header" class="header">
-        <nav class="topnav" id="nav-bar">
-            <a class="nav-link_1" href="../index.html">
-              <img class="header-logo" src="../img/headerlogo.png" alt="" />
-            </a>
-            <a class="nav-link_2" href="../index.html">go home</a>
-          </nav>
+        <my-nav></my-nav>
           <form action="POST" class="form-container">
             <h1>Contact me!</h1>
             <input type="text" name="name" placeholder="Name" />
@@ -25,23 +21,7 @@
             <input type="submit" name="send" />
           </form>
     </header>
-    <footer class="smedia">
-      <a href="https://bit.ly/BGoodYouTube" target="_blank">
-        <i class="fab fa-youtube"></i>
-      </a>
-      <a href="https://github.com/CharlyBGood" target="_blank">
-        <i class="fa-brands fa-github"></i>
-      </a>
-      <a href="https://vimeo.com/charlybgood" target="_blank">
-        <i class="fab fa-vimeo-v"></i>
-      </a>
-      <a href="https://www.instagram.com/charlsbgood/" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://twitter.com/CharlybGoodM" target="_blank">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </footer>
+    <my-footer></my-footer>
   </body>
   <script src="https://kit.fontawesome.com/a9d601c6bd.js" crossorigin="anonymous"></script>
 </html>
