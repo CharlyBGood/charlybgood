@@ -1,10 +1,5 @@
-// let body = document.body;
 
-// body.style.backgroundImage = "url(./img/JAHJAH.gif)";
-
-// function loadHtml(id, filename) {
-//     console.log(`div id: ${id}, filename: ${filename}`);
-// }
+// document.body.style.backgroundImage = "url(./img/JAHJAH.gif)";
 
 // Create e custom class that works as HTML template 
 class MyNavbar extends HTMLElement {
