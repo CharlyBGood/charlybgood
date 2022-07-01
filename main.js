@@ -7,7 +7,7 @@ class MyNavbar extends HTMLElement {
         this.innerHTML = `
         <nav class="topnav" id="nav-bar">
             <a class="nav-link_1" href="./index.html">
-                <img class="header-logo" src="/img/headerlogo.png" alt="">
+                <img class="header-logo" src="./img/headerlogo.png" alt="">
             </a>
             <a class="nav-link_2" href="../pages/contact.html">contact</a>
         </nav>
