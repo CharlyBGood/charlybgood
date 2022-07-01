@@ -132,6 +132,13 @@ form input, textarea {
     margin: 1em;    
 } */
 
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 3em;
+}
+
 .collage-h1 {
     text-align: center;
     margin: 3em auto;
@@ -143,10 +150,10 @@ form input, textarea {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto 2em auto 2em auto;
-    grid-template-columns: auto auto auto;
-    gap: 1em 2em;
+    grid-template-columns: repeat(auto-fit, minmax(21vw, 1fr));
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    gap: 1em 2em;
     width: 90%;    
 }
 
@@ -162,8 +169,8 @@ form input, textarea {
         -ms-flex-pack: center;
             justify-content: center;
     margin: 0 auto;
-    width: 11em;
-    height: 11em;
+    width: 100%;
+    height: auto;
     border: 1px solid var(--col-rd);
     border-radius: .4em;
     cursor: pointer;
