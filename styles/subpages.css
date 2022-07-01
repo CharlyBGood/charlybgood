@@ -120,11 +120,20 @@ form input, textarea {
 }
 
 .gy-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 auto;
     width: 11em;
     height: 11em;
-    background-color: var(--col-rd);
-    border-radius: .5em;
+    border: 1px solid var(--col-rd);
+    border-radius: .4em;
+    cursor: pointer;
+}
+
+.gy-container img {
+    width: 100%;
+    height: auto;
 }
 
 .gy-container button {
