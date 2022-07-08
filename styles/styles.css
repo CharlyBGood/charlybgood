@@ -6,7 +6,8 @@
   --fs-400: 1rem;
   --col-whr: #e2e1e1;
   --col-whp: #f7e4f2;
-  --col-rd: #99103d;
+  /* --col-rd: #99103d; */
+  --col-rd: #3A063E;
 }
 
 * {
@@ -221,7 +222,7 @@ body {
 footer {
   background-color: var(--col-rd);
   opacity: 0.5;
-  padding: 0.3em;
+  padding: 0.6em;
   margin: 0;
   bottom: 0;
   position: fixed;

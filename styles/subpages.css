@@ -6,7 +6,8 @@
     --fs-400: 1rem;
     --col-whr: #e2e1e1;
     --col-whp: #f7e4f2;
-    --col-rd: #99103d;
+    /* --col-rd: #99103d; */
+    --col-rd: #3A063E;
 }
 
 * {
